@@ -24,20 +24,41 @@ public class BasicOperations {
         int subtrahend;
         int difference;
         
-        minuend = -23;
-        subtrahend = -6;
+        int factor1;
+        int factor2;
+       
+        int divisor;
+        int dividend;
+        int quotient;
+        
+        int divisor2;
+        int dividend2;
+        
         
         
         //initilization
         addend1 = 5;
         addend2 = 18;
+        //initilization
+        minuend = -23;
+        subtrahend = -6;
+        //initilization
+        factor1 = 3;
+        factor2 = 11;
+        //initilization
+        divisor = 10;
+        dividend = 2;
+        //initilization
+        divisor2 = 15;
+        dividend2 = 2;
         
+                
         //operation
         sum = addend1 + addend2;
         
         System.out.println("The eaddition of" + addend1 + "+" + addend2 + 
                 "is equal to -->"+sum);
-        
+        // operation
         ++sum;
         System.out.println("sum is equal to -->" + sum);
         
@@ -48,11 +69,20 @@ public class BasicOperations {
         
         System.out.println("adding one to sum" + ((++sum)));
         
-        
+        //operation rest
         System.out.println(" the subtraction of " + minuend + " + " + subtrahend + 
                 "is equal to " + (minuend - subtrahend));
+        //operation 
         
+        System.out.println("The multiplication of " + factor1 + "*" + factor2 + 
+                 "is equal to" + (factor1 * factor2));
+        //operation
         
+        System.out.println("The division of " + divisor + "/" + dividend + 
+                "is equal to the quotient"  + (divisor/dividend));
+        //operation
+        System.out.println("The module of" + divisor2 + "%" + dividend2 + 
+                "is equal to" + (divisor2 % dividend2));
     }
     
 }
