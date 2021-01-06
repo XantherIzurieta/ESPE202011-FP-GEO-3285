@@ -29,7 +29,6 @@ public class BasicOperations {
        
         int divisor;
         int dividend;
-        int quotient;
         
         int divisor2;
         int dividend2;
