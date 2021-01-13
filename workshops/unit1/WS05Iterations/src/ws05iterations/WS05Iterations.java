@@ -50,6 +50,8 @@ public class WS05Iterations {
             System.out.println("7 * " + j + " = " + product);
             
         }
+        
+       
         }
         }
     
