@@ -86,7 +86,7 @@ while(option > 2){
                     
                     break;
                 case 5 :
-                    System.out.println("until next time");
+                    System.out.println("Until next time");
                     System.exit(0);
                     break;
                 default :
