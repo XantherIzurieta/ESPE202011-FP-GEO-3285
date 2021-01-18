@@ -3,7 +3,7 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-package assignment03_menus;
+package izurietaxantherjoelq11;
 
 import java.util.Scanner;
 
@@ -11,19 +11,23 @@ import java.util.Scanner;
  *
  * @author PC1
  */
-public class Assignment03_Menus {
+public class IzurietaXantherJoelQ11 {
 
     /**
      * @param args the command line arguments
      */
     public static void main(String[] args) {
-    
-        Scanner input = new Scanner (System.in);
+        
+ Scanner input = new Scanner (System.in);
         boolean mainLoop = true;
         int option = 0;
         
         do {
-            System.out.println("Hello, with this program you will be able to improve your ability with the multiplication tables, so choose the option 1 so you can enter the number of which you want to know its multiplication table, and if you want to close the program enter 0 in the main menu");
+            System.out.println("Hello, with this program you will be able to "
+                    + "improve your ability with the multiplication tables, "
+                    + "so choose the option 1 so you can enter the number of "
+                    + "which you want to know its multiplication table, and if "
+                    + "you want to close the program enter 0 in the main menu");
             System.out.println("1.-Multiplication table of a number");
             System.out.println("0.- Exit");
             
@@ -32,7 +36,8 @@ public class Assignment03_Menus {
             
             switch(option){    
                 case 1 :
-                    System.out.println("Enter the number you want to know its multiplication table");
+                    System.out.println("Enter the number you want to know "
+                            + "its multiplication table");
                  int top=12;
                  int product=0;
                  int table;
@@ -59,3 +64,4 @@ public class Assignment03_Menus {
     }
     
 }
+
