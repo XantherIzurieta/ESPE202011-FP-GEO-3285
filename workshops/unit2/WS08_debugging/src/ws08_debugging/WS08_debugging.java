@@ -3,7 +3,7 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-package ws08_correction;
+package ws08_debugging;
 
 import java.util.Scanner;
 
@@ -11,7 +11,7 @@ import java.util.Scanner;
  *
  * @author PC1
  */
-public class WS08_correction {
+public class WS08_debugging {
 
     /**
      * @param args the command line arguments
