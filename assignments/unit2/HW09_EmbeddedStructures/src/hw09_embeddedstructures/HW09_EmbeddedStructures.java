@@ -3,7 +3,7 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-package izurietaxantherjoelq11;
+package hw09_embeddedstructures;
 
 import java.util.Scanner;
 
@@ -11,14 +11,14 @@ import java.util.Scanner;
  *
  * @author PC1
  */
-public class IzurietaXantherJoelQ11 {
+public class HW09_EmbeddedStructures {
 
     /**
      * @param args the command line arguments
      */
     public static void main(String[] args) {
-        
-        Scanner scanner = new Scanner(System.in);
+       
+   Scanner scanner = new Scanner(System.in);
 
         int operand1;
         int operand2;
@@ -70,3 +70,4 @@ public class IzurietaXantherJoelQ11 {
         } while (option != 'n');
     }
 }
+
