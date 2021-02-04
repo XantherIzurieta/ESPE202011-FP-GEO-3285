@@ -51,7 +51,7 @@ public class HW09_EmbeddedStructures {
                     System.out.println(operand1 + " x " + j + " = " + (operand1 * j));
                 }
 
-                if (operand1 != operand2) {
+                
                     for (int j = 1; j <= 12; j++) {
                         System.out.println(operand2 + " x " + j + " = " + (operand2 * j));
                     }
