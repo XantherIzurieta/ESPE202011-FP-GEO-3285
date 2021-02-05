@@ -3,7 +3,7 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-package hw10_functions;
+package ws11_functionsandrecursion;
 
 import java.util.Scanner;
 
@@ -11,7 +11,7 @@ import java.util.Scanner;
  *
  * @author PC1
  */
-public class HW10_Functions {
+public class WS11_FunctionsAndRecursion {
 
     /**
      * @param args the command line arguments
@@ -103,8 +103,9 @@ public class HW10_Functions {
         System.out.println(" ╔═════════════════════════╗ ");
         System.out.println("            -  G O O D   B Y E  -             ");
         System.out.println(" ╚═════════════════════════╝ ");
+        
+        System.out.println("");
     }
-
 //FIRST PROCESS-----------------------------------------------------------------
     public static float divideTwoNumbers(int dividend, int divisor) {
         float quotient = 0.0F;
@@ -138,4 +139,25 @@ public class HW10_Functions {
 
         return resultreturn2;
     }
+    
+    public static int factorial(int n) {
+        if (n < 0) {
+            return -1;
+        } else {
+            if (n == 0) {
+                return 1;
+            } else {
+                return (n * factorial(n - 1));
+            }
+        }
+    }
+
+
 }
+
+    
+    
+        
+        
+
+    

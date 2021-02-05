@@ -55,7 +55,8 @@ public class HW09_EmbeddedStructures {
                     for (int j = 1; j <= 12; j++) {
                         System.out.println(operand2 + " x " + j + " = " + (operand2 * j));
                     }
-                }
+                
+        
             } else if (operand1 % 13 == 0 && operand2 % 13 == 0) {
                 result = (operand1 / operand2);
                 System.out.println(operand1 + " / " + operand2 + " = " + result);
