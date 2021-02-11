@@ -29,11 +29,7 @@ public class HW12_IncomeTax {
         Scanner input = new Scanner(System.in);
 
         System.out.println("Please enter your Annual Profit $");
-        float AnnualProfit = input.nextFloat();
-
-        float BasicFraction;
-        float ExcessUp;
-        float BasicFractionTax;
+        float AnnualProfit = input.nextFloat();        
         float ExcessFractionTax = PrintTaxPercentage(AnnualProfit);
         
         System.out.println("the %ExcessFractioTax is " + ExcessFractionTax  );

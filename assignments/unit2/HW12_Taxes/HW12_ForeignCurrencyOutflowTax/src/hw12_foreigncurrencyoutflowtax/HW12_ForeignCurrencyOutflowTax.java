@@ -82,7 +82,8 @@ public class HW12_ForeignCurrencyOutflowTax {
             Tax = 5;
             Value = (float) (AmountOfMoney*0.05);
         }else{
-            Value = 0;
+            Tax = 0;
+            Value= (float)(AmountOfMoney);
         }
         System.out.println("");
         System.out.println("The value is "+ Value + " since ");
@@ -98,7 +99,8 @@ public class HW12_ForeignCurrencyOutflowTax {
             Tax2 = 5;
             Value2 = (float) (AmountOfMoney2*0.05);
         }else{
-            Value2 = 0;
+            Tax2 = 0;
+            Value2 = (float)(AmountOfMoney2);
         }
         System.out.println("");
         System.out.println("The value is "+ Value2 + " since ");
