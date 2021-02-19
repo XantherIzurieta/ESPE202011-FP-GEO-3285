@@ -3,7 +3,7 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-package ws14_farmsimulator;
+package ws14_arrays;
 
 import java.util.Scanner;
 
@@ -11,7 +11,7 @@ import java.util.Scanner;
  *
  * @author PC1
  */
-public class WS14_FarmSimulator {
+public class WS14_Arrays {
 
     /**
      * @param args the command line arguments
