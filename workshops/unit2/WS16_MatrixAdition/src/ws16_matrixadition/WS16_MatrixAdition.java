@@ -31,7 +31,7 @@ public class WS16_MatrixAdition {
      for (int i=0;i<3;i++){
          System.out.println("");
         for (int j=0 ; j <3 ; j++){
-            System.out.println("\t"+c [i][j] );
+            System.out.println("\t"+a [i][j] );
              
         }
     }
@@ -40,7 +40,7 @@ public class WS16_MatrixAdition {
      for (int i=0;i<3;i++){
          System.out.println("");
         for (int j=0 ; j <3 ; j++){
-            System.out.println("\t"+c [i][j] );
+            System.out.println("\t" +b [i][j] );
              
         }
     }
