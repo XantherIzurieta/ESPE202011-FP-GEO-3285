@@ -42,7 +42,7 @@ public class WS17_MatrixTransposition {
          System.out.println("------Enter the elements of the matrix-------");
          
          a=readMatrixElements(m, n, "A",input);
-         b=readMatrixElements(m, n, "A",input);
+         b=readMatrixElements(m, n, "B",input);
          
          for(int tab=0; tab<= n/2; tab++){
            System.out.println("\t");   
