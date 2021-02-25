@@ -54,7 +54,7 @@ public class HW16_MatrixFunction {
         System.out.println(" B ");
         prettyPrintMatrix(m, n, b);
 
-        System.out.println("--The sum of matrices is--");
+        System.out.println("The product of matrices is--");
 
         c = productTwoMatrices(m, n, a, b);
         prettyPrintMatrix(m, n, c);
