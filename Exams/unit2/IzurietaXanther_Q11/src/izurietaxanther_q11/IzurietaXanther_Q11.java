@@ -48,6 +48,13 @@ public class IzurietaXanther_Q11 {
         float average = 0;
 
         System.out.println(" The average is  " + PrintAverage(average, ñ, m, o));
+        
+        //PART 3----------------------------------------------------------------
+        System.out.print("Enter the number to search ");
+        int[] v = {12, 23, 34, 98, 87, 65, 0};
+        int find;       
+        find = input.nextInt();
+        findNumber(v, find);
 
     }
 
@@ -70,4 +77,16 @@ public class IzurietaXanther_Q11 {
         }
         return (float) average;
     }
+    //FUNCTION 3
+    private static void findNumber(int[] v, int find) {
+        for (int i = 0; i < v.length; i++) {
+            if (find == v[i]) {
+                System.out.println("The number " + v[i] + " has been found ");
+                
+            }
+        }
+    }
 }
+
+        
+    
