@@ -22,7 +22,7 @@ public class WS10_Functions {
         int x = 0;
         int y = 0;
 
-        
+        System.out.println("AUTOR ---> XANTHER IZURIETA");
         quotient = divideTwoNumbers(divd, divr);
 
         System.out.println("Quotient of 5 and 20 is -> " + quotient); 

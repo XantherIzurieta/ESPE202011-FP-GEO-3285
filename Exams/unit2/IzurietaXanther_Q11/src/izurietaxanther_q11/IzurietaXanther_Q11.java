@@ -24,7 +24,7 @@ public class IzurietaXanther_Q11 {
         Scanner input = new Scanner(System.in);
 
         //PART 1----------------------------------------------------------------
-        System.out.println("The addition of elements");
+         System.out.println("The addition of elements");
         System.out.println("Enter 5 elements");
 
         int q = input.nextInt();
@@ -40,7 +40,7 @@ public class IzurietaXanther_Q11 {
         System.out.println("Average of three elements ");
         System.out.println("Enter 3 elements");
 
-        float ñ = input.nextInt();
+        float ñ = input.nextFloat();
         float o = input.nextInt();
         float m = input.nextInt();
 
@@ -62,6 +62,7 @@ public class IzurietaXanther_Q11 {
     //FUNCTIONS
     //FUNCTION 1
     public static int PrintTaxPercentage(int add, int q, int b, int c, int d, int e) {
+       
         int[] a = {q, b, c, d, e,};
         for (int i = 0; i < a.length; i++) {
             add += a[i];
