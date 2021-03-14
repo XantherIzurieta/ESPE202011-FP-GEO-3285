@@ -18,10 +18,11 @@ public class WS21_Functions {
      */
     public static void main(String[] args) {
     
-        // XANTHER IZURIETA 10/ 03 / 2021
-        //number 1
-        //COMPUTERS
-        
+        System.out.println(" ---> AUTHOR : XANTHER IZURIETA <--- \n" +
+"        10/ 03 / 2021\n" +
+"        number 1\n" +
+"        COMPUTERS\n" +
+"        ");
         Scanner input = new Scanner(System.in);
 
         float large;
