@@ -15,11 +15,12 @@ public class Soritng {
      * @param args the command line arguments
      */
     public static void main(String[] args) {
-      int[] integersToSort = {9, 7, 1, 6, 2, 3};
+      
+int[] integersToSort = {9, 7, 1, 6, 2, 3};
         
         System.out.println("Unsorted integers");
         printArray(integersToSort);
-        sortByBubbleSort(integersToSort);
+        BubbleSort.sort(integersToSort);
         System.out.println("");
         printArray(integersToSort);
         
@@ -27,48 +28,41 @@ public class Soritng {
         
         System.out.println("Unsorted integers");
         printArray(integersToSort2);
-        sortByBubbleSort(integersToSort2);
+        BubbleSort.sort(integersToSort2);
         System.out.println("");
         printArray(integersToSort2);
         
-    }
+        integersToSort2 = new int[]{9, 7, 3, 1, 4};
+        
+        System.out.println("Unsorted integers");
+        printArray(integersToSort2);
+        BubbleSort.sort(integersToSort2);
+        System.out.println("");
+        printArray(integersToSort2);
+        
+       SelectionSort selectionSort = new SelectionSort();
 
-    public static void sortByBubbleSort(int integers[]) {
-
-        //for (int i = 0; i < integers.length - 1; i++) {
-        //
-        //}
-        int n = integers.length;
-        int temp;
-        for (int i = 0; i < n - 1; i++) {
-            for (int j = 0; j < n - i - 1; j++) {
-                if (integers[j] > integers[j + 1]) {
-                    //swap-------------------------
-                    temp = integers[j];
-                    integers[j] = integers[j + 1];
-                    integers[j + 1] = temp;
-
-                }
-                System.out.print("sorting --> ");
-                printArray(integers);
-
-            }
-            System.out.println("");
-
-        }
+       integersToSort2 = new int[]{42, 30, -5, 7, 1, 50};
+        
+        System.out.println("Sorting integers by SELECTION SORT");
+        printArray(integersToSort2);
+        int[] sortedArray = selectionSort.sort(integersToSort2);
+        System.out.println("");
+        printArray(sortedArray);       
+        
 
     }
 
-    public static void printArray(int[] integers) {
+    
+    public static void printArray(int[] integers){
         int n = integers.length;
-        for (int i = 0; i < n; i++) {
+        for (int i = 0 ; i <n;i++){
             System.out.print(integers[i] + " , ");
         }
         System.out.println("");
     }
 
 }
-
 
     
 
