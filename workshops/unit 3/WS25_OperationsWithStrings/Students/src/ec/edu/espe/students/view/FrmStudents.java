@@ -135,10 +135,8 @@ public class FrmStudents extends javax.swing.JFrame {
         classroomNRC= cmbClassroomNRC.getSelectedItem().toString();
         data=lastName +","+ firtsName +","+ age +","+classroomNRC;
         
-        JOptionPane.showMessageDialog(this, lastName);
-        JOptionPane.showMessageDialog(this, firtsName);
-        JOptionPane.showMessageDialog(this, age);
-        JOptionPane.showMessageDialog(this, classroomNRC);
+        JOptionPane.showMessageDialog(null, data);
+        
         
     }//GEN-LAST:event_btnSaveActionPerformed
 
