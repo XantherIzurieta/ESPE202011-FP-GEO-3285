@@ -11,7 +11,7 @@ import java.util.Scanner;
  *
  * @author PC1
  */
-public class JavaApplication72 {
+public class HW18_Searching {
 
     /**
      * @param args the command line arguments
