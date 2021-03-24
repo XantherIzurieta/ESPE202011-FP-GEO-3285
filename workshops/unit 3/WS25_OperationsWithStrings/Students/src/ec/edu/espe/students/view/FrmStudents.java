@@ -5,6 +5,7 @@
  */
 package ec.edu.espe.students.view;
 
+import java.util.Scanner;
 import javax.swing.JOptionPane;
 
 /**
@@ -122,7 +123,8 @@ public class FrmStudents extends javax.swing.JFrame {
     }// </editor-fold>//GEN-END:initComponents
 
     private void btnSaveActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btnSaveActionPerformed
-      
+    
+        
         String lastName;
         String firtsName;
         int age;
