@@ -9,13 +9,13 @@ import ec.edu.espe.mudicSystem.controller.PianoController;
 import ec.edu.espe.mudicSystem.modell.Piano;
 import java.io.BufferedReader;
 import java.io.File;
-
+import java.io.FileNotFoundException;
 import java.io.FileReader;
 import java.io.IOException;
 import java.util.logging.Level;
 import java.util.logging.Logger;
 import javax.swing.JOptionPane;
-
+import utils.FileManager;
 
 /**
  *
@@ -82,7 +82,7 @@ public class FrmPiano extends javax.swing.JFrame {
         txtAreaText.setRows(5);
         jScrollPane1.setViewportView(txtAreaText);
 
-        btnPrintPianos.setText("Print Pianos : ");
+        btnPrintPianos.setText("Print Pianos");
         btnPrintPianos.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 btnPrintPianosActionPerformed(evt);
@@ -131,7 +131,7 @@ public class FrmPiano extends javax.swing.JFrame {
                         .addContainerGap())
                     .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, layout.createSequentialGroup()
                         .addComponent(btnPrintPianos)
-                        .addGap(102, 102, 102))))
+                        .addGap(97, 97, 97))))
         );
         layout.setVerticalGroup(
             layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
@@ -173,40 +173,39 @@ public class FrmPiano extends javax.swing.JFrame {
     }// </editor-fold>//GEN-END:initComponents
 
     private void btnSaveActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btnSaveActionPerformed
-        
-        Piano piano;
-        String brand;
-        String type;
-        String color;
-        String serialNumber;
-        int numberOfKeys;
-        PianoController pianoController = new PianoController();
-
-        brand = txtBrand.getText();
-        type = txtType.getText();
-        color = cmbColor.getSelectedItem().toString();
-        serialNumber = txtSerialNumber.getText();
-        numberOfKeys = Integer.parseInt(txtNumberOfKeys.getText());
-
-        piano = new Piano(numberOfKeys, brand, type, color, serialNumber);
-
-        pianoController.save(piano);
-
-        JOptionPane.showMessageDialog(rootPane, piano.getBrand());
-
-
+    Piano piano;
+    
+    String brand;
+    String type;
+    String color;
+    String serialNumber;
+    int numberOfKeys;
+    PianoController pianoController= new PianoController();
+    
+    brand = txtBrand.getText();
+    type = txtType.getText();
+    color = cmbColor.getSelectedItem().toString();
+    serialNumber = txtSerialNumber.getText();
+    numberOfKeys = Integer.parseInt(txtNumberOfKeys.getText());
+    
+    piano = new Piano(numberOfKeys, brand, type, color, serialNumber);
+    
+    pianoController.save(piano);
+    
+    JOptionPane.showMessageDialog(rootPane, piano.getBrand());
+    
+    
     }//GEN-LAST:event_btnSaveActionPerformed
 
     private void btnPrintPianosActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btnPrintPianosActionPerformed
-
-        File text = new File("C:\\Users\\PC1\\3D Objects\\U ESPE\\Tercer semestre\\progra\\ESPE202011-FP-GEO-3285\\workshops\\unit 3\\WS26_ADT\\MusicSystem\\pianos.txt");
+    File text = new File("C:\\Users\\PC1\\3D Objects\\U ESPE\\Tercer semestre\\progra\\ESPE202011-FP-GEO-3285\\workshops\\unit 3\\WS26_ADT\\MusicSystem\\pianos.txt");
         try {
             BufferedReader read = new BufferedReader(new FileReader(text));
             String line = read.readLine();
-            while (line != null) {
-                txtAreaText.append(line + "\n");
-                line = read.readLine();
-            }
+        while(line!= null){
+            txtAreaText.append(line+"\n");
+           line = read.readLine();
+        }
         } catch (IOException ex) {
             Logger.getLogger(FrmPiano.class.getName()).log(Level.SEVERE, null, ex);
         }

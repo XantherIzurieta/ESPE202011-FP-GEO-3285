@@ -1,5 +1,3 @@
 
-Arturia ,MKII88 ,Black ,88 ,ASDFD543
-Arturia ,miniMKII ,White ,25 ,ASDFD543
-
-Akai ,mkmini3 ,Black ,25 ,GDFG645HDF
+M-audio ,Hammer 88 Pro ,White ,88 ,SDF4354GDF
+432 ,432 ,White ,432 ,423
