@@ -198,7 +198,7 @@ public class FrmPiano extends javax.swing.JFrame {
     }//GEN-LAST:event_btnSaveActionPerformed
 
     private void btnPrintPianosActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btnPrintPianosActionPerformed
-    File text = new File("C:\\Users\\PC1\\3D Objects\\U ESPE\\Tercer semestre\\progra\\ESPE202011-FP-GEO-3285\\workshops\\unit 3\\WS26_ADT\\MusicSystem\\pianos.txt");
+    File text = new File("C:\\Users\\PC1\\3D Objects\\U ESPE\\Tercer semestre\\progra\\ESPE202011-FP-GEO-3285\\workshops\\unit 3\\WS28-Window\\MusicSystem_3\\pianos.txt");
         try {
             BufferedReader read = new BufferedReader(new FileReader(text));
             String line = read.readLine();

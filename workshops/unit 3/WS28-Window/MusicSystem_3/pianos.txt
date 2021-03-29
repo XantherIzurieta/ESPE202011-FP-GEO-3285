@@ -1,4 +1,4 @@
 Arturia ,MKII88 ,Black ,88 ,ASDFD543
 Arturia ,miniMKII ,White ,25 ,ASDFD543
 Akai ,mkmini3 ,Black ,25 ,GDFG645HDF
-6 ,5 ,White ,5 ,5
+M-audio, Hammer 88 pro , White, 88, ASG46FH876
