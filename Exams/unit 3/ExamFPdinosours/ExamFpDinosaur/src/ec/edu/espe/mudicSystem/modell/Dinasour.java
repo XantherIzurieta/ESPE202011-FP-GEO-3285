@@ -9,7 +9,7 @@ package ec.edu.espe.mudicSystem.modell;
  *
  * @author PC1
  */
-public class Piano {
+public class Dinasour {
     
     private int numberOfKeys;
     private String brand;
@@ -17,7 +17,7 @@ public class Piano {
     private String color;
     private String serialNumber;
 
-    public Piano(int numberOfKeys, String brand, String type, String color, String serialNumber) {
+    public Dinasour(int numberOfKeys, String brand, String type, String color, String serialNumber) {
         this.numberOfKeys = numberOfKeys;
         this.brand = brand;
         this.type = type;

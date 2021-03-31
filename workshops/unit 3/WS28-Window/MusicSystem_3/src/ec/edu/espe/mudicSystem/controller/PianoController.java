@@ -5,7 +5,7 @@
  */
 package ec.edu.espe.mudicSystem.controller;
 
-import ec.edu.espe.mudicSystem.modell.Piano;
+import ec.edu.espe.mudicSystem.modell.Dinosaur;
 import utils.FileManager;
 
 /**
@@ -14,7 +14,7 @@ import utils.FileManager;
  */
 public class PianoController {
     
-public void save(Piano piano)  {
+public void save(Dinosaur piano)  {
 String data = piano.getBrand()+" ,"+piano.getType()+ " ,"+piano.getColor()
         +" ,"+piano.getNumberOfKeys()+" ,"+piano.getSerialNumber();
 FileManager.save(data,"pianos");
